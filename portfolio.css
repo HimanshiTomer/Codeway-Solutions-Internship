@@ -1,0 +1,59 @@
+header{
+   text-align: center;
+   font-family: 'cascadia code';
+   /*background-color: rgb(190, 228, 243) ;*/
+   background-color: white;
+   color: black;
+   margin: 0;
+   padding: 12;
+}
+body{
+   font-family: 'cascadia code extralight', sans-serif;
+   color:white;
+   background-image: url("https://images.unsplash.com/photo-1510936111840-65e151ad71bb?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+section{
+   max-width: 900px;
+   margin: 20px auto;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h3{
+   font-family: 'cascadia code';
+   text-decoration: underline;
+}
+td.right{
+   text-align: right;
+}
+.none{
+   list-style-type: none;
+}
+button {
+   padding: 5px 10px;
+   border-radius: 5px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   color: white;
+   border: 0;
+}
+.lang button{
+   background-color: #007bff;
+}
+.front button{
+   background-color: #9000ff;
+}
+.back button{
+   background-color: rgb(210, 77, 122);
+}
+a.hover{
+   color: rgb(190, 242, 187);
+}
+a.link{
+   color: white;
+}
+a.focus{
+   color:white;
+}
+a.visited{
+   color:white;
+}
